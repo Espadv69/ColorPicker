@@ -12,5 +12,5 @@ A simple React application to select and display colors dynamically using props 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ColorPickerApp.git
+   git clone https://github.com/Espadv69/ColorPickerApp.git
    cd ColorPickerApp
