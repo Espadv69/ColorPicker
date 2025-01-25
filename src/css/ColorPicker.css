@@ -1,0 +1,29 @@
+.buttons-container {
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 500px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
+.button-colors {
+  cursor: pointer;
+  padding: 2rem 0rem;
+
+  width: 100%;
+
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: white;
+}
+
+.button-colors:focus {
+  opacity: .4;
+}
