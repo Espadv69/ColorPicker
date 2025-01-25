@@ -29,7 +29,13 @@ body {
 }
 
 .h1-title {
+  margin: .4rem auto;
+
+  width: 100%;
+  max-width: 500px;
+
   text-align: center;
 
-  border-bottom: 2px solid currentColor;
+  border-bottom: 5px solid currentColor;
+  border-radius: 15px;
 }
