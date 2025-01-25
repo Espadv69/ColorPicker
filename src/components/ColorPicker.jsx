@@ -1,15 +1,12 @@
 const ColorPicker = ({ onColorSelect }) => {
   const colors = ['red', 'blue', 'green', 'yellow', 'purple']
 
-  const handleColorPicker = (color) => {
-    onColorSelect(color)
-  }
-
   return (
     <div className="buttons-container">
       {colors.map((color) => (
         <button
-          onClick={handleColorPicker}
+          key={color}
+          onClick={() => onColorSelect(color)}
           style={{ backgroundColor: color, color: 'currentcolor' }}
         >
           {color}
