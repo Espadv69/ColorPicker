@@ -7,7 +7,8 @@ const ColorPicker = ({ onColorSelect }) => {
         <button
           key={color}
           onClick={() => onColorSelect(color)}
-          style={{ backgroundColor: color, color: 'currentcolor' }}
+          style={{ backgroundColor: color }}
+          className="button-colors"
         >
           {color}
         </button>
