@@ -1,3 +1,5 @@
+import '../css/ColorPicker.css'
+
 const ColorPicker = ({ onColorSelect }) => {
   const colors = ['red', 'blue', 'green', 'yellow', 'purple']
 
