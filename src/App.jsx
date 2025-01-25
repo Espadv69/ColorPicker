@@ -9,8 +9,8 @@ const App = () => {
   return (
     <main>
       <h1 className="h1-title">ColorPicker with React</h1>
-      <ColorPicker onColorSelect={(color) => setSelectedColor(color)} />
       <ColorDisplay color={selectedColor} />
+      <ColorPicker onColorSelect={(color) => setSelectedColor(color)} />
     </main>
   )
 }
