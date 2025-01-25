@@ -1,7 +1,12 @@
+import '../css/ColorDisplay.css'
+
 const ColorDisplay = ({ color }) => {
   return (
     <div className="selected-color-container">
-      <p className="p-selected-color">Selected color: {color}</p>
+      <p>
+        Selected color:{' '}
+        <span style={{ color: color, fontWeight: 'bold' }}>{color}</span>
+      </p>
     </div>
   )
 }
